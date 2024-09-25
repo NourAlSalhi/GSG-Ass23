@@ -12,7 +12,7 @@ nav {
 .menu {
     margin-top: 40px;
     display: flex;
-    width: 80%;
+    width: 90%;
     margin: 40px auto 0px;
     justify-content: space-between;
     align-items: center;
@@ -33,4 +33,20 @@ nav {
 }
 .item-one {
     background-color: #676767 !important;
+}
+.center-section {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto 0px;
+}
+.center-section section {
+    width: 60%;
+    background-color: #676767;
+    height: 300px;
+}
+.center-section aside {
+    width: 30%;
+    background-color: #969494;
+    height: 300px;
 }
